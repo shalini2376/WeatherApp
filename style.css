@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.container{
+    width: 400px;
+    height:min-content;
+    background-color: #FFFF;
+    padding: 40px 20px;
+    border-radius: 20px;
+}
+.search-box{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-box input{
+    background-color: rgb(186, 226, 243);
+    width: 85%;
+    font-weight: bold
+    ;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-transform: capitalize;
+}
+/* .search-box input::placeholder{
+    color: black;
+} */
+.search-box input::placeholder{
+    color: rgb(142, 142, 142);
+}
+.search-box button{
+    font-size: 25px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgb(186, 226, 243);
+}
+.search-box button:hover{
+    background-color: gray;
+    color: white;
+}
+.weather-body img{
+    width: 50%;
+}
+.weather-body{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.weather-info{
+    margin-top: 10px;
+    text-align: center;
+}
+.weather-info .temperature{
+    font-size: 40px;
+    font-weight: 700;
+    position: relative
+}
+.weather-info .temperature sup{
+    font-size: 20px;
+    position: absolute;
+    font-weight: 500;
+}
+.weather-info .discription{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.weather-details{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.humidity{
+    display: flex;
+}
+.wind{
+    display: flex;
+}
+.weather-details i{
+    font-size: 35px;
+}
+.weather-details .text{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.text span{
+    font-weight: 600;
+}
+.location-not-found{
+    margin-top: 30px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.location-not-found h1{
+    font-size: 26px;
+    color: #535050;
+}
+.location-not-found img{
+    width: 350px;
+    height: 350px;
+   
+}
+.no-location{
+    display: none;
+}
+.no-location h1{
+    font-size: 24px;
+    color: #535050;
+    margin-top: 20px;
+}

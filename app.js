@@ -44,22 +44,22 @@ const wind_Speed = document.querySelector("#windSpeed");
     // selection of images on the basis of weather
     switch (weather_data.weather[0].main) {
         case 'Clouds':
-            weather_img.src = "/images/cloud.png" ; 
+            weather_img.src = "images/cloud.png" ; 
             break;
         case 'Clear':
-            weather_img.src = "/images/clear.png" ; 
+            weather_img.src = "images/clear.png" ; 
             break;
         case 'Mist':
-            weather_img.src = "/images/mist.png" ; 
+            weather_img.src = "images/mist.png" ; 
             break;
         case 'Rain':
-            weather_img.src = "/images/rain.png" ; 
+            weather_img.src = "images/rain.png" ; 
             break;
         case 'Haze':
-            weather_img.src = "/images/haze.png" ; 
+            weather_img.src = "images/haze.png" ; 
             break;
         case 'Snow':
-            weather_img.src = "/images/snow.png" ; 
+            weather_img.src = "images/snow.png" ; 
             break;
         default:
             break;

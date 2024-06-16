@@ -27,7 +27,7 @@ const wind_Speed = document.querySelector("#windSpeed");
     }
 
     // when user does not enter any location or leaves input box empty
-    if(weather_data.cod === `400`){
+    if(weather_data.cod === `400` || weather_data.cod === ``){
         document.querySelector('.no-location').style.display = 'flex' ;
         document.querySelector('.location-not-found').style.display = "none" ;
         document.querySelector('.weather-body').style.display = "none" ;

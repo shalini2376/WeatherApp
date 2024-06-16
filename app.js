@@ -18,7 +18,7 @@ const wind_Speed = document.querySelector("#windSpeed");
         document.querySelector('.location-not-found').style.display = "flex" ;
         document.querySelector('.weather-body').style.display = "none" ;
         document.querySelector('.no-location').style.display = 'none' ;
-        console.log("error");
+        console.log("error, due to invalid location. ");
         return;
      }
     else{    
